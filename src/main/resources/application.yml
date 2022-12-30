@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: ec2-3-38-209-151.ap-northeast-2.compute.amazonaws.com:9092
+    producer:
+      acks: 1
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
